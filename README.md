@@ -23,6 +23,6 @@ Product:Es donde se llama la Data de la lista de productos
 
 ### Vistas
 <img src= "https://user-images.githubusercontent.com/65916093/115082986-5ca89080-9ecc-11eb-972f-c20062e87d5f.PNG" />
-<img src="https://user-images.githubusercontent.com/65916093/115084400-7945c800-9ece-11eb-8a7a-d2cfb7bcd5f1.PNG">
+<img src="https://user-images.githubusercontent.com/65916093/115085414-1fde9880-9ed0-11eb-9b86-8575186247aa.PNG">
 
 
