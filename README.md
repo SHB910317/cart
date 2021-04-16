@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Carro de compra de Toy Roboto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto tiene como objeto simular una web que tenga como función poder seleccionar productos y agregarlos a un carro de compra en donde se muestre el resumen de la compra que se va arealizar. La imagenes de los productos se tomaron del siguiente emprendimiento: https://www.instagram.com/toyroboto/
 
-## Available Scripts
+## Descripción de su funcionalidades:
 
-In the project directory, you can run:
+- Una lista de ítems mostrando el catálogo de productos.
+- Un carrito de compras que tiene todos los ítems que serán comprados por el usuario.
+- Espacio donde se muestre la sincronización de los ítems añadidos al carrito. 
+- Cada ítem del catálogo tiene un action button con texto `Add item to cart`
+- Cada ítem en el resumen de compra tiene un action button con el signo `-` para eliminar un producto del carro y un signo `+` para agregar otra unidad de las mismas       características
 
-### `npm start`
+### Descripción del código
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Se programo con framework de reactJs. Para esto se uso NodeJs V.14.6
+Se trabaja con un repositorio remoto en GitHub: https://github.com/SHB910317/cart
+Se crean cuatro componentes Header : Donde se coloca el encabezado de la marca y donde se pone la función del número de productos del carrito.
+Basket:Es dnde se crear las funciones que muestran el detalle de los productos que se añaden al carrito
+Main: se usa la función map. para crear un nue array
+Product:Es donde se llama la Data de la lista de productos 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Vistas
+<img src= "https://user-images.githubusercontent.com/65916093/115082986-5ca89080-9ecc-11eb-972f-c20062e87d5f.PNG" />
+<img src="https://user-images.githubusercontent.com/65916093/115084400-7945c800-9ece-11eb-8a7a-d2cfb7bcd5f1.PNG">
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
